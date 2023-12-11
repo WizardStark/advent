@@ -27,6 +27,7 @@ def expand(img, exp_fact):
             for x in range(len(img)):
                 img[x][i] = exp_fact
         i += 1
+
     i = 0
     while i < len(img):
         if not "#" in img[i]:
@@ -41,6 +42,7 @@ def sol(input, exp_fact):
     stars = []
     total = 0
     y_pos = 0
+
     for i in range(len(img)):
         x_pos = 0
         for j in range(len(img[0])):
