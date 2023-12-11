@@ -1,7 +1,7 @@
 import time
 from math import ceil
 
-f = open("day10/input.txt", "r").read()
+f = open("advent2023/day10/input.txt", "r").read()
 
 
 test = """7-F7-
