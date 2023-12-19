@@ -1,8 +1,7 @@
-import time
+import os, sys, time
 from math import ceil
 
-f = open("advent2023/day10/input.txt", "r").read()
-
+f = open(os.path.join(sys.path[0], "input.txt"), "r").read()
 
 test = """7-F7-
 .FJ|7

@@ -52,7 +52,7 @@ def part2(f):
     print(total_power)
 
 
-f = open("day2/input.txt", "r")
+f = open("advent2023/day2/input.txt", "r")
 part1(f)
 
 f = open("day2/input.txt", "r")

@@ -1,4 +1,6 @@
-f = open("input.txt", "r")
+import os, sys
+
+f = open(os.path.join(sys.path[0], "input.txt"), "r").read()
 total = 0
 test = ["thistwo1isnot45anumber", "non4point"]
 numstrings = {
